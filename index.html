@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Recipe Saver</title>
+</head>
+<body class="page">
+    <header class="header">
+        <nav class="links">
+            <ul class="links__container">
+                <li class="links__link"><a href="#">Landing</a></li>
+                <li class="links__link links__link_active"><a href="#">App</a></li>
+            </ul>
+        </nav>
+        <h1 class="header__title">Recipe Saver</h1>
+    </header>
+    <main class="main">
+        <section class="sidebar sidebar_visible"> <!-- can collapse/expand -->
+            <button class="btn recipes__add-item">Add Recipe</button>
+            <ul class="recipes">
+                
+                <!-- Recipes are prepended to this ul when they're added -->
+                <!-- This ul is propagated on page load by the recipes object -->
+            </ul>
+            <button class="btn sidebar__collapse-button"></button>
+        </section>
+
+        <section class="display">
+            <!-- when a recipe is clicked, its full display/description goes here -->
+            <!-- So what goes here before any recipe is clicked/loaded? Maybe the most recent recipe? -->
+            <div class="recipe-form__container">
+                <button class="recipe-form__close-button">X</button>
+                <form action="#" class="recipe-form" name="recipe-form">
+                    <label class="recipe-form__label" for="title">Title</label>
+                    <input type="text" name="title" class="recipe-form__input" placeholder="title" minlength="4" maxlength="128" required>
+        
+                    <label class="recipe-form__label" for="description">Description</label>
+                    <input type="textarea" name="description" class="recipe-form__input" minlength="4" maxlength="1024" required>
+        
+                    <label class="recipe-form__label" for="picture">Picture URL</label>
+                    <input type="url" name="picture" class="recipe-form__input">
+        
+                    <ul class="recipe-form__list recipe-form__list_type_recipe">
+                        <!-- gets filled by ingredients being added -->
+                        
+                    </ul>
+                    <label class="recipe-form__label" for="recipe">Recipe Ingredients</label>
+                    <input type="text" name="recipe" class="recipe-form__input recipe-form__input_type_recipe" minlength="2" maxlength="128">
+                    <button type="button" class="recipe-form__add-button recipe-form__add-button_type_recipe">Add</button>
+
+                    <ul class="recipe-form__list recipe-form__list_type_instructions">
+                        <!-- gets filled by instruction steps being added -->
+                    </ul>
+                    <label class="recipe-form__label" for="instructions">Recipe Instructions</label>
+                    <input type="text" name="instructions" class="recipe-form__input recipe-form__input_type_instructions" minlength="2" maxlength="512">
+                    <button type="button" class="recipe-form__add-button recipe-form__add-button_type_instructions">Add</button>
+
+                    <button type="submit" class="recipe-form__submit-button">Submit</button>
+                </form>
+            </div>
+
+            <div class="display__recipe"></div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p></p>
+    </footer>
+
+    <template class="recipe__template">
+        <li class="recipe">
+            <button class="recipe__delete-button">X</button>
+            <h2 class="recipe__title"></h2>
+            <!-- thumbnail too? -->
+        </li>
+    </template>
+
+</body>
+<script type="module" src="pages/index.js"></script>
+</html>

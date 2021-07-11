@@ -1,0 +1,8 @@
+@import url(__title/header__title.css);
+
+.header {
+  background-color: #e7fcd1;
+  border-radius: 12px;
+  margin: 0 auto;
+  margin-top: 16px;
+}

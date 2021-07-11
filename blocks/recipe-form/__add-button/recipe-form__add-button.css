@@ -1,0 +1,9 @@
+.recipe-form__add-button {
+  display: block;
+  margin: 12px 0 !important;
+  padding: 6px;
+  background-color: #fff8e6;
+  border: 1px solid #ffe49a;
+  border-radius: 4px;
+  box-shadow: 1px 2px 3px -1px #00000059;
+}

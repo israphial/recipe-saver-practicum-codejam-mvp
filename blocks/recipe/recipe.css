@@ -1,0 +1,16 @@
+@import url(__list-item/recipe__list-item.css);
+@import url(__title/recipe__title.css);
+@import url(__template/recipe__template.css);
+@import url(__delete-button/recipe__delete-button.css);
+
+.recipe {
+  list-style-type: none;
+  display: flex;
+  min-width: 150px;
+  height: 40px;
+  margin-top: 8px;
+  border-radius: 6px;
+  margin-right: 6px;
+  background-color: #ffe49a;
+  cursor: pointer;
+}

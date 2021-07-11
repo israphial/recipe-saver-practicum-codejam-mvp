@@ -1,0 +1,10 @@
+@import url(__container/recipe-form__container.css);
+@import url(__input/recipe-form__input.css);
+@import url(__label/recipe-form__label.css);
+@import url(__list/recipe-form__list.css);
+@import url(__submit-button/recipe-form__submit-button.css);
+@import url(__close-button/recipe-form__close-button.css);
+@import url(__add-button/recipe-form__add-button.css);
+
+.recipe-form {
+}

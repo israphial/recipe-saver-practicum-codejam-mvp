@@ -1,0 +1,14 @@
+@import url(__collapse-button/sidebar__collapse-button.css);
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 224px;
+  height: 80vh;
+  margin: 0;
+  padding: 0;
+  margin-right: 16px;
+  background-color: #fff3d3;
+  box-shadow: 1px 0px 4px -1px #000000c2;
+  border-radius: 0 6px 6px 0;
+}
