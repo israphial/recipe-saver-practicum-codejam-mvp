@@ -1,20 +1,20 @@
 /* vendor */
-@import url(/vendor/normalize.css);
+@import url(../vendor/normalize.css);
 
 /* blocks */
-@import url(/blocks/page/page.css);
-@import url(/blocks/main/main.css);
-@import url(/blocks/header/header.css);
-@import url(/blocks/footer/footer.css);
-@import url(/blocks/display/display.css);
-@import url(/blocks/sidebar/sidebar.css);
-@import url(/blocks/recipes/recipes.css);
-@import url(/blocks/recipe/recipe.css);
-@import url(/blocks/recipe-form/recipe-form.css);
-@import url(/blocks/links/links.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/main/main.css);
+@import url(../blocks/header/header.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/display/display.css);
+@import url(../blocks/sidebar/sidebar.css);
+@import url(../blocks/recipes/recipes.css);
+@import url(../blocks/recipe/recipe.css);
+@import url(../blocks/recipe-form/recipe-form.css);
+@import url(../blocks/links/links.css);
 
 /* modifiers and mixes */
-@import url(/blocks/links/__link/links__link_active.css);
-@import url(/blocks/sidebar/sidebar_visible.css);
-@import url(/blocks/btn/btn.css);
-@import url(/blocks/visible/visible.css);
+@import url(../blocks/links/__link/links__link_active.css);
+@import url(../blocks/sidebar/sidebar_visible.css);
+@import url(../blocks/btn/btn.css);
+@import url(../blocks/visible/visible.css);
